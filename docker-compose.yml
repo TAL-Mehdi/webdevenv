@@ -5,7 +5,7 @@ services:
         volumes:
             - ./php:/var/www/html/
         ports:
-            - 80:80
+            - 8181:80
     db:
         container_name: db
         image: mysql

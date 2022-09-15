@@ -4,8 +4,8 @@
  {
      private static $dbHost = "localhost";
      private static $dbName = "api_get";
-     private static $dbUsername = "user";
-     private static $dbUserpassword = "test";     
+     private static $dbUsername = "root";
+     private static $dbUserpassword = "proit_administrator@DXC1900";     
      private static $connection = null;
      
      public static function connect()
